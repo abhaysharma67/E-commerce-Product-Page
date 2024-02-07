@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nevbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+      <div class="nev-search">
+         <select id="nev-all"><option>All</option></select>
+         <input placeholder="Search for products, brands and more" id="search-input">
+         <div class="search-icon"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></div>
+      </div>
+      <div class="nev-signin">
+         <p><span id="signin">Hello, sign in</span></p>
+         <p id="account">Account & Lists</p>
+      </div>
+      <div class="nev-return">
+         <p><span id="return">Return</span></p>
+         <p id="order">& Orders</p>
+      </div>
+      <div class="nev-cart">
+         <span><i class="fa-solid fa-cart-plus" id="nev-cart-icon"></i>Cart</span>
+      </div>
+    </div>
+    <div class="container">
+        <div class="image">
+           <img src="pic1.jpg">
+           <div class="smallimage">
+            <div id="all"><img src="pic1.jpg"></div>
+            <div id="all"><img src="pic2.jpg"></div>
+            <div id="all"><img src="pic3.jpg"></div>
+            <div id="all"><img src="pic4.jpg"></div>
+        </div>
+        </div>
+        <div class="text">
+            <p class="brand">Brand : Samsung</p>
+            <h2 id="model">SAMSUNG Galaxy S23 Ultra 5G <br>(Green, 256 GB)  (12 GB RAM)</h2>
+             <div class="review">
+                <span>4.6</span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+             </div>
+             <div class="price-box">
+                <p class="price">&#8377; 99,999</p>
+                <strike>&#8377; 1,49,999</strike>
+             </div>
+             <p>Color : <select name="Color">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+             </select></p>
+             <p>Quantity : <select name="Quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+             </select></p>
+             <button><i class="fa-solid fa-cart-plus"></i>Add to Cart</button>
+             <button><i class="fa-solid fa-cart-shopping"></i>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
